@@ -12,20 +12,6 @@ Aplicación web para gestionar clientes. Permite **crear**, **listar**, **editar
 
 ## Backend - API REST con Node.js + Express
 
-### Estructura
-
-backend/
-├── controllers/
-│ └── clienteController.js
-├── data/
-│ └── clientes.json
-├── routes/
-│ └── clientes.js
-├── uploads/
-├── utils/
-│ └── messages.js
-├── server.js
-└── package.json
 
 ### Instalación y ejecución
 
@@ -59,33 +45,6 @@ DELETE	/api/clientes/:id	Eliminación lógica (activo = 0)
 
 ## Frontend - Angular 17+ (Standalone + Tailwind)
 
-### Estructura
-
-src/
-└── app/
-├── components/
-│ ├── cliente-form/
-│ │ ├── cliente-form.ts
-│ │ ├── cliente-form.html
-│ │ ├── cliente-form.css
-│ │ └── cliente-form.spec.ts
-│ └── cliente-list/
-│ ├── cliente-list.ts
-│ ├── cliente-list.html
-│ ├── cliente-list.css
-│ └── cliente-list.spec.ts
-├── models/
-│ ├── cliente.model.ts
-│ └── cliente.model.spec.ts
-├── services/
-│ ├── cliente.ts
-│ └── cliente.spec.ts
-├── app.config.ts
-├── app.routes.ts
-├── app.ts
-├── app.html
-├── app.css
-└── app.spec.ts
 
 ### Instalación y ejecución
 
