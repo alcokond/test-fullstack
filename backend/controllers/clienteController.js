@@ -1,6 +1,5 @@
 const { v4: uuidv4 } = require('uuid')
 const db = require('../db/database')
-const path = require('path')
 
 function getClientes(req, res) {
     const { search = '', estado, page = 1, size = 10 } = req.query
