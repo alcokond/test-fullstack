@@ -1,0 +1,47 @@
+# --- GLOBAL ---
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.*
+
+# SQLite Database
+*.db
+
+# --- BACKEND (Node.js) ---
+backend/node_modules/
+backend/uploads/
+backend/package-lock.json
+
+# --- FRONTEND (Angular) ---
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+frontend/.editorconfig
+frontend/.vscode/
+frontend/package-lock.json
+frontend/coverage/
+
+# Angular temporary files
+frontend/src/**/*.spec.ts
+
+# --- GIT ---
+# Ignore system files that shouldn't be committed
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
