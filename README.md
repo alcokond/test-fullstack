@@ -1,4 +1,4 @@
-<img width="1914" height="1030" alt="image" src="https://github.com/user-attachments/assets/750a92ec-7a90-474e-aab2-a73f02c3ba8c" /># Sistema de Gestión de Clientes (Fullstack - Angular + Express + Oracle)
+# Sistema de Gestión de Clientes (Fullstack - Angular + Express + Oracle)
 
 ## Objetivo
 
