@@ -91,4 +91,67 @@ npm run dev
 <img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/bb99c812-9f23-466b-b7f4-e3a11d162f93" />
 
 
+# EJERCICIOS PRÁCTICOS 1-5
 
+## Ejercicio 1: Creación de Tablas y Relaciones
+Objetivo: Evaluar la capacidad de diseñar una base de datos normalizada.
+Tareas: Crea las siguientes tablas:
+  - Clientes (id_cliente, nombre, email, telefono, fecha_registro)
+  - Productos (id_producto, nombre, precio, stock)
+  - Pedidos (id_pedido, id_cliente, fecha_pedido, total)
+  - Detalle_Pedido (id_detalle, id_pedido, id_producto, cantidad, precio_unitario)
+  - Define claves primarias y foráneas adecuadas.
+  - Inserta al menos 5 registros en cada tabla.
+### Creación de tablas:
+<img width="818" height="872" alt="image" src="https://github.com/user-attachments/assets/3b0fa622-efc9-4daf-9c69-5adb3183b95c" />
+
+### Insertar registros:
+<img width="1890" height="990" alt="image" src="https://github.com/user-attachments/assets/28cbbaf0-7421-417c-96f0-34ca74703e50" />
+<img width="1917" height="808" alt="image" src="https://github.com/user-attachments/assets/766c9048-af13-46ad-91dd-71c397fc76b3" />
+
+## Ejercicio 2: Procedimiento Almacenado
+Objetivo: Evaluar el manejo de PL/SQL y lógica de negocio.
+Tareas: 
+Crea un procedimiento almacenado SP_REALIZAR_PEDIDO que:
+  - Reciba un id_cliente y una lista de productos con cantidades.
+  - Inserte el pedido en la tabla Pedidos.
+  - Inserte los detalles en Detalle_Pedido.
+  - Actualice el stock en Productos.
+
+<img width="1908" height="988" alt="image" src="https://github.com/user-attachments/assets/a84111fc-e6b7-4fb8-a2a1-b869972aaf0e" />
+<img width="1918" height="561" alt="image" src="https://github.com/user-attachments/assets/eb9371cc-9e4b-489b-9dce-39c59447c35a" />
+
+## Ejercicio 3: API REST CRUD
+Objetivo: Evaluar conocimientos en Spring Boot, JPA y RESTful APIs.
+Tareas: 
+- Crear un servicio REST en Spring Boot con una entidad Cliente (id, nombre, email, telefono).
+- Implementar un CRUD básico usando Spring Data JPA y un controlador REST.
+- Exponer los siguientes endpoints:
+  - GET /clientes → Listar todos los clientes
+  - POST /clientes → Crear un cliente
+  - PUT /clientes/{id} → Actualizar un cliente
+  - DELETE /clientes/{id} → Eliminar un cliente
+
+Link de video: https://youtu.be/xi9R_PGN7Gc
+
+## Ejercicio 4: API REST con Express y Oracle
+Objetivo: Evaluar conocimientos en Express.js, Oracle y CRUD.
+Tareas:
+  - Crear un API REST en Node.js con Express.js para gestionar productos.
+  - Usar Hibernate para persistencia.
+  Implementar los siguientes endpoints:
+    - GET /productos → Listar todos los productos
+    - POST /productos → Crear un producto
+    - PUT /productos/:id → Actualizar un producto
+    - DELETE /productos/:id → Eliminar un producto
+
+Link del video: https://youtu.be/Mdg9Q9GX0qs
+
+## Ejercicio 5: Consumir API REST y Mostrar Datos
+Objetivo: Evaluar la capacidad de consumir APIs en Angular.
+Tareas:
+  - Crear un servicio en Angular que consuma GET /clientes desde un backend en Spring Boot o GET /productos desde Node.js.
+  - Mostrar los clientes en una tabla.
+  - Agregar un botón para eliminar clientes.
+
+Link del video: https://youtu.be/JOru12cuOdU
